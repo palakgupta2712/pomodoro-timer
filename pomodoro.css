@@ -21,15 +21,15 @@ body{
 .long:hover{
     background-color: #F67E7D;
 }
-.hero{
+/* .hero{
     margin-left: 380px;
     margin-top: 200px;
 }
 .mode{
     margin-left: 150px;
-}
-.buttons{
+} */
+/* .buttons{
     margin: 50px;
     margin-left: 200px;
-}
+} */
 .material-icons.md-56 { font-size: 56px; }

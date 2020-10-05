@@ -12,18 +12,23 @@
 </head>
 <body>
     
-    <div class="hero">
-        <div class="mode">
+    <div id="message" class="alert alert-primary text-center" role="alert" style="display: none;">
+      
+      </div>
+    <div class="container text-center">
+       <br>
+        <div class="mode"></div>
             <button type="button" class="btn btn-outline-light pomo" onclick="pomo()">Pomodoro</button>
             <button type="button" class="btn btn-outline-light short" onclick="short()">Short Breaks</button>
             <button type="button" class="btn btn-outline-light long" onclick="long()">Long Breaks</button>
         </div>
-        <div id="timer">
+        <div id="timer" class="text-center">
             <span id="minutes">25</span>
             <span id="colon">:</span>
             <span id="seconds">00</span>
         </div>
-        <div class="buttons">
+        <br>
+        <div class="buttons text-center">
             <button type="button" class="btn btn-dark"
             id="start" onclick="startTimer()">
                 <span class="material-icons md-56">
