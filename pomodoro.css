@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+}
+#timer{
+    color:white;    
+    font-size: 200px;
+    line-height: 1;
+
+}
+.hero{
+    margin-left: 380px;
+    margin-top: 200px;
+}
+.mode{
+    margin-left: 150px;
+}
+.buttons{
+    margin: 50px;
+    margin-left: 200px;
+}
+.material-icons.md-56 { font-size: 56px; }
