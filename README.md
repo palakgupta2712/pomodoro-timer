@@ -4,5 +4,5 @@ Pomodoro is a time management technique developed which uses a timer to break do
 ## Features
 [x] Pomodoro , Short Break, Long Break
 [x] Progress Bar
-[] Random Quotes
+[ ] Random Quotes
 
