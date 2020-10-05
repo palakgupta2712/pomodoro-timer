@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title> POMODORO CLOCK </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+        }
+        #timer{
+            color:white;    
+            font-size: 200px;
+            line-height: 1;
+
+        }
+        .hero{
+            margin-left: 380px;
+            margin-top: 200px;
+        }
+        .buttons{
+            margin: 50px;
+            margin-left: 200px;
+        }
+        .material-icons.md-56 { font-size: 56px; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div id="timer">
+            <span id="minutes">25</span>
+            <span id="colon">:</span>
+            <span id="seconds">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start">
+                <span class="material-icons md-56">
+                    play_arrow
+                    </span>
+            </button>
+            <button id="pause">
+                <span class="material-icons md-56">
+                    pause
+                    </span>
+            </button>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="pomodoro.js">
+    </script>
+</body>
+</html>
