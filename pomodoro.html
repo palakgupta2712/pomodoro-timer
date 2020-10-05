@@ -16,6 +16,9 @@
             margin-left: 380px;
             margin-top: 200px;
         }
+        .mode{
+            margin-left: 150px;
+        }
         .buttons{
             margin: 50px;
             margin-left: 200px;
@@ -24,8 +27,13 @@
     </style>
 </head>
 <body>
-  
+    
     <div class="hero">
+        <div class="mode">
+            <button id="pomodoro" onclick="pomo()">Pomodoro</button>
+            <button id="short" onclick="short()">Short Breaks</button>
+            <button id="long" onclick="long()"> Long Breaks</button>
+        </div>
         <div id="timer">
             <span id="minutes">25</span>
             <span id="colon">:</span>
