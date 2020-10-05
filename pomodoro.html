@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="pomodoro.css">
 </head>
 <body>
-    
-    <div id="message" class="alert alert-primary text-center" role="alert" style="display: none;">
-      
+  
+    <div class="progress">
+        <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" ></div>
       </div>
+    <div id="message" class="alert alert-primary text-center" role="alert" style="display: none;"></div>
     <div class="container text-center">
+       <br>
        <br>
         <div class="mode"></div>
             <button type="button" class="btn btn-outline-light pomo" onclick="pomo()">Pomodoro</button>
-            <button type="button" class="btn btn-outline-light short" onclick="short()">Short Breaks</button>
-            <button type="button" class="btn btn-outline-light long" onclick="long()">Long Breaks</button>
+            <button type="button" class="btn btn-outline-light short" onclick="short()">Short Break</button>
+            <button type="button" class="btn btn-outline-light long" onclick="long()">Long Break</button>
         </div>
         <div id="timer" class="text-center">
             <span id="minutes">25</span>
