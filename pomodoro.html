@@ -14,9 +14,9 @@
     
     <div class="hero">
         <div class="mode">
-            <button id="pomodoro" onclick="pomo()">Pomodoro</button>
-            <button id="short" onclick="short()">Short Breaks</button>
-            <button id="long" onclick="long()"> Long Breaks</button>
+            <button type="button" class="btn btn-outline-light pomo" onclick="pomo()">Pomodoro</button>
+            <button type="button" class="btn btn-outline-light short" onclick="short()">Short Breaks</button>
+            <button type="button" class="btn btn-outline-light long" onclick="long()">Long Breaks</button>
         </div>
         <div id="timer">
             <span id="minutes">25</span>
@@ -24,12 +24,13 @@
             <span id="seconds">00</span>
         </div>
         <div class="buttons">
-            <button id="start" onclick="startTimer()">
+            <button type="button" class="btn btn-dark"
+            id="start" onclick="startTimer()">
                 <span class="material-icons md-56">
                     play_arrow
                     </span>
             </button>
-            <button id="pause" onclick="pauseTimer()">
+            <button id="pause" type="button" class="btn btn-dark" onclick="pauseTimer()">
                 <span class="material-icons md-56">
                     pause
                     </span>

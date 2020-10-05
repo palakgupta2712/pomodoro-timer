@@ -5,17 +5,21 @@ let interval;
 const timerElement = document.getElementById('timer');
 
 function pomo(){
+    document.body.style.backgroundColor ="#6CC2BD";
     timerElement.innerHTML = "25 : 00";
     time = 25;
     timer = time * 60;
 }
 function short(){
+    document.body.style.backgroundColor ="#7D7AA2";
+    
     timerElement.innerHTML = "05 : 00";
     time = 5;
     timer = time * 60;
 }
 
 function long(){
+    document.body.style.backgroundColor ="#F67E7D";
     timerElement.innerHTML = "10 : 00";
     time = 10;
     timer = time * 60;

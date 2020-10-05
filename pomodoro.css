@@ -1,12 +1,25 @@
 
 body{
-    background-color: black;
+    background-color: #6CC2BD;
 }
 #timer{
     color:white;    
     font-size: 200px;
     line-height: 1;
 
+}
+
+.pomo, .short, .long{
+    color:black;
+}
+.pomo:hover{
+    background-color: #6CC2BD;
+}
+.short:hover{
+    background-color: #7D7AA2;
+}
+.long:hover{
+    background-color: #F67E7D;
 }
 .hero{
     margin-left: 380px;
